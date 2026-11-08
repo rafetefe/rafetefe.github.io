@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>finT</title>
     <link rel="icon" href="https://static.wikia.nocookie.net/dota2_gamepedia/images/4/4a/Site-favicon.ico"/>
     <style>
+
+        body > fieldset {
+            background-color: antiquewhite;
+            flex: auto
+        }
+
+        body > fieldset > legend {
+            margin-left: auto
+        }
+
+
         fieldset > ul {
             list-style-type: none;
         }
@@ -12,9 +23,14 @@
         fieldset {
             background-color: lightgray;
             display: flex;
+            flex-direction: column;
         }
 
         li > fieldset {
+            border: 0
+        }
+
+        li > ul {
             border: 0
         }
 
@@ -25,30 +41,68 @@
 </head>
 <body>
 
-<fieldset style="background-color: antiquewhite; flex-direction: row-reverse">
-    <h3>Fri Nov 6 14:21:56 TST 2026</h3>
-</fieldset>
 
 <fieldset>
-    <legend>IBM App Connect</legend>
-    <ul>
-        <li>
-            <a href="https://www.ibm.com/docs/en/app-connect/12.0.x?topic=scenarios-capability">
-                Capability scenarios
-            </a>
-        </li>
-        <li>
-            <fieldset>
-                Genel olarak mapper olarak kullanıldığını sunulmuş
-            </fieldset>
-        </li>
-        <li>
-            <a href="https://www.ibm.com/docs/en/app-connect/12.0.x?topic=information-industry-standard-formats">
-                information-industry-standard-formats
-            </a>
-        </li>
-        <li>
-            <fieldset>
+    <legend>Nov 8</legend>
+
+    <fieldset>
+        <legend>Go</legend>
+        <fieldset>
+            <legend>A Tour of Go</legend>
+            <pre>Completed</pre>
+        </fieldset>
+    </fieldset>
+
+</fieldset>
+
+<hr>
+
+<fieldset>
+    <legend>Nov 7</legend>
+
+    <fieldset>
+        <legend>Caching</legend>
+        <fieldset>
+            <legend>Problem: Thundering Herd Problem upon Cache Miss</legend>
+            <ul>
+                <li>
+                    Solution 1: Fallback Design
+                    <ul>
+                        <li>
+                            TestCase: <a href="github.com/gravitational/teleport">gravitational/teleport</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </fieldset>
+    </fieldset>
+</fieldset>
+
+<hr>
+
+<fieldset>
+    <legend>Nov 6</legend>
+
+    <fieldset>
+        <legend>IBM App Connect</legend>
+
+        <ul>
+            <li>
+                <a href="https://www.ibm.com/docs/en/app-connect/12.0.x?topic=scenarios-capability">
+                    Capability scenarios
+                </a>
+            </li>
+            <li>
+                <fieldset>
+                    Genel olarak mapper olarak kullanıldığını sunulmuş
+                </fieldset>
+            </li>
+            <li>
+                <a href="https://www.ibm.com/docs/en/app-connect/12.0.x?topic=information-industry-standard-formats">
+                    information-industry-standard-formats
+                </a>
+            </li>
+            <li>
                 <pre>
                     DFDL domain information
                     MIME domain information
@@ -62,104 +116,137 @@
                     Industry standard formats
                     IBM App Connect Enterprise supports a wide variety of standards, including the ACORD AL3, CSV, EDIFACT, FIX, HL7, SWIFT, TLOG, X12 and ISO8583 standards.
                     Message model task list errors that have a quick fix
-                    You can apply a quick fix to some message modeling task list warnings or errors to correct them.</i>
+                    You can apply a quick fix to some message modeling task list warnings or errors to correct them.
                 </pre>
-            </fieldset>
-        </li>
-    </ul>
-</fieldset>
+            </li>
+        </ul>
+    </fieldset>
 
-<fieldset>
-    <legend>Nasdaq TotalView-ITCH</legend>
-    <ul>
-        <li>
-            <a href="https://databento.com/catalog/us-equities#XNAS.ITCH">Databento XNAS.ITCH</a>
-        </li>
-        <li>
-            <fieldset>
+    <fieldset>
+        <legend>Nasdaq TotalView-ITCH</legend>
+        <ul>
+            <li>
+                <a href="https://databento.com/catalog/us-equities#XNAS.ITCH">Databento XNAS.ITCH</a>
+            </li>
+            <li>
+                <fieldset>
                 <pre>
                     Schemas
                     MBO, MBP-1, MBP-10, BBO-1s, BBO-1m, TBBO, Trades, OHLCV-1s, OHLCV-1m, OHLCV-1h, OHLCV-1d, Definition, Statistics, Status, Imbalance
                     Encodings
                     DBN, CSV, JSON
                 </pre>
-            </fieldset>
-        </li>
-    </ul>
-</fieldset>
-
-<fieldset>
-    <legend>Stripe</legend>
-    <ul>
-        <li>
-            <a href="https://stripe.com/resources/more/iso-8583">what is ISO 8583</a>
-        </li>
-        <li>
-            <a href="https://stripe.com/resources/more/iso-8583#is-iso-8583-still-the-right-protocol-as-iso-20022-adoption-grows">is-iso-8583-still-the-right-protocol-as-iso-20022-adoption-grows</a>
-        </li>
-    </ul>
-</fieldset>
-
-<fieldset>
-    <legend>Commercial Mortgage Backed Securities</legend>
-</fieldset>
-
-<fieldset>
-    <legend><a href="https://www.multicharts.com/">multicharts</a></legend>
-</fieldset>
-
-<fieldset>
-    <legend>ODTU ALGOTR</legend>
-    <ul>
-        <li>
-            <a href="https://ougur.iam.metu.edu.tr/philomath/opsimath/">opsimath</a>
-        </li>
-        <li>
-            <a href="https://iam.metu.edu.tr/en/algorithmic-trading-research-group">algotr</a>
-        </li>
-    </ul>
-</fieldset>
-
-<fieldset style="flex-direction: column">
-    <legend>Codeforces 15K4JR3B A2</legend>
-
-    <fieldset style="margin: 0; padding: 0; border-bottom: 0; border-left: 0; border-right: 0">
-        <legend style="margin-left: auto;">Fri Nov 6 20:05:55 TST 2026</legend>
+                </fieldset>
+            </li>
+        </ul>
     </fieldset>
 
     <fieldset>
-        <legend>Question</legend>
-        <pre>
-        Angel places three points A, B, and C at the origin, and also gives you an array a of length n.
-
-        You must perform exactly n operations. During the i-th operation, choose one of these points and increase or decrease one of its coordinates by 2^ai.
-        In other words, if the chosen point has coordinates (x,y), then in the i-th operation you may move it to (x+2^ai,y), (x−2^ai,y), (x,y+2^ai), or (x,y−2^ai).
-
-        elements of array a = a_1, a_2 ... a_n (0 <= a_i <= 24)
-
-        input 1 = 0, 0
-        input 2 = 0, 0, 1
-        input 3 = 0, 1, 2, 2, 4, 0
-        input 4 = 24, 24, 24, 0, 0, 0
-
-        output 1 = 1
-        output 2 = 4
-        output 3 = 192
-        output 4 = 562950054084608
-    </pre>
+        <legend>Stripe</legend>
+        <ul>
+            <li>
+                <a href="https://stripe.com/resources/more/iso-8583">what is ISO 8583</a>
+            </li>
+            <li>
+                <a href="https://stripe.com/resources/more/iso-8583#is-iso-8583-still-the-right-protocol-as-iso-20022-adoption-grows">is-iso-8583-still-the-right-protocol-as-iso-20022-adoption-grows</a>
+            </li>
+        </ul>
     </fieldset>
+
     <fieldset>
-        <legend>Solution</legend>
-        <pre>
-        Most equal disturbution of powers into 3 buckets. Later into 2.
-
-        Sort pows -> [4, 2, 2, 1, 0, 0]
-        translate pows -> [16, 4, 4, 2, 1, 1]
-        Distirbute pows -> [16, 4, 4] -> [16, 6, 4] -> [16, 6, 5] -> [16, 6, 6]
-        Disturbute pows to floor and height -> [16, 12]
-        return 16 * 12 = 192
-    </pre>
+        <legend>Commercial Mortgage Backed Securities</legend>
     </fieldset>
+
+    <fieldset>
+        <legend><a href="https://www.multicharts.com/">multicharts</a></legend>
+    </fieldset>
+
+    <fieldset>
+        <legend>ODTU ALGOTR</legend>
+        <ul>
+            <li>
+                <a href="https://ougur.iam.metu.edu.tr/philomath/opsimath/">opsimath</a>
+            </li>
+            <li>
+                <a href="https://iam.metu.edu.tr/en/algorithmic-trading-research-group">algotr</a>
+            </li>
+        </ul>
+    </fieldset>
+
+    <fieldset>
+        <legend>DesigningDataIntensiveApplications</legend>
+        <fieldset>
+            <legend>Operational Systems</legend>
+            <ul>
+                <li>
+                    Point Query (getById)
+                </li>
+                <li>
+                    CRUD is regarded as Transcation due historical reasons
+                </li>
+                <li>
+                    OLTP (Online Transaction Processing)
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Analytical Systems</legend>
+            <ul>
+                <li>
+                    Aggregate Queries
+                </li>
+                <li>
+                    Bulk Import, ETL, Event Stream
+                </li>
+                <li>
+                    OLAP (Online Analytical Processing)
+                </li>
+                <li>
+                    Product Analytics / Real-time Analytics (Pinot, Druid, Clickhouse)
+                </li>
+            </ul>
+        </fieldset>
+    </fieldset>
+
+    <fieldset>
+        <legend>Codeforces 15K4JR3B A2</legend>
+
+        <fieldset>
+            <legend>Question</legend>
+            <pre>
+                Angel places three points A, B, and C at the origin, and also gives you an array a of length n.
+
+                You must perform exactly n operations. During the i-th operation, choose one of these points and increase or decrease one of its coordinates by 2^ai.
+                In other words, if the chosen point has coordinates (x,y), then in the i-th operation you may move it to (x+2^ai,y), (x−2^ai,y), (x,y+2^ai), or (x,y−2^ai).
+
+                elements of array a = a_1, a_2 ... a_n (0 <= a_i <= 24)
+
+                input 1 = 0, 0
+                input 2 = 0, 0, 1
+                input 3 = 0, 1, 2, 2, 4, 0
+                input 4 = 24, 24, 24, 0, 0, 0
+
+                output 1 = 1
+                output 2 = 4
+                output 3 = 192
+                output 4 = 562950054084608
+            </pre>
+        </fieldset>
+        <fieldset>
+            <legend>Solution</legend>
+            <pre>
+                Most equal disturbution of powers into 3 buckets. Later into 2.
+
+                Sort pows -> [4, 2, 2, 1, 0, 0]
+                translate pows -> [16, 4, 4, 2, 1, 1]
+                Distirbute pows -> [16, 4, 4] -> [16, 6, 4] -> [16, 6, 5] -> [16, 6, 6]
+                Disturbute pows to floor and height -> [16, 12]
+                return 16 * 12 = 192
+            </pre>
+        </fieldset>
+    </fieldset>
+
 </fieldset>
 
 </body>
